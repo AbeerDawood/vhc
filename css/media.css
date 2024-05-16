@@ -7,6 +7,11 @@
     .carousel-caption h3{
         font-size: 25px;
     }
+
+    .carousel {
+        height: 650px;
+    }
+
     .bd-vhc{
         margin-top:unset;
         padding-top:4%;
@@ -33,6 +38,9 @@
         letter-spacing: 4px;
         font-size: 10px;
     }
+    /* .carousel {
+        height: 650px;
+    } */
 }
 
 /*// Large devices (desktops, 992px )*/
@@ -65,9 +73,9 @@
 .lang{
     margin-top:10px
 }
-.bd-vhc{
+/* .bd-vhc{
     margin-top: 10%;
-}
+} */
 .navbar-nav{
     background-color: #fafdff;
     padding: 20px;
@@ -103,7 +111,9 @@
 .carousel-indicators{
     display:none;
 }
-
+.carousel-item img {
+    height: 100%;
+}
 .section-body p{
     font-size: 15px;
 }
@@ -178,8 +188,9 @@
     display:unset;
     padding-top: 15px;
 }
-.brand-img{
+.brand-img {
     margin-top: 35px;
+    width: 46%;
 }
 footer h3{
 	margin-top:20px;
@@ -210,15 +221,24 @@ footer h3{
 .navbar{
     margin-top:0;
 }
-.bd-vhc{
+/* .bd-vhc{
     margin-top: 23%;
-}
+} */
     
 /************carousel**********/
 .carousel-indicators{
     display:none;
 }
-
+.carousel {
+    height: 550px;
+}
+.bd-vhc .carousel-inner, .bd-vhc .carousel-item {
+    height:100%;
+    width: auto;
+}
+.carousel-item img {
+    height: 100%;
+}
 /*************about*************/
 .puzzle img{
     width:100%;

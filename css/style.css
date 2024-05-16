@@ -16,6 +16,8 @@ html
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+
 }
 body {
 	height:100%;
@@ -124,10 +126,33 @@ p{
     padding: 2px;
     border-radius: 5px;
 }
+
+.home-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    font-size: 39px;
+    z-index: 100;
+    color: #0977bc;
+	bottom: 40px;
+    right: 40px;
+	position: fixed;
+}
+
+.home-btn i {
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-radius: 50%;
+}
+
+.home-btn:hover{
+	color: #095686;
+}
+
 /******************** Header **************************/
 .navbar{
 	background:#ececec;
 	box-shadow: 1px 1px 5px #adadad;
+	position: fixed;
 }
 
 .fa-bars{
@@ -203,10 +228,11 @@ p{
 /**********Caoursel*******************/
 
 .carousel {
-	height: 650px;
+	/* height: 650px; */
 overflow: hidden; 
 
 }
+
 .bd-vhc{
 	margin-top:5%;
 }
